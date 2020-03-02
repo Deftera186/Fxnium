@@ -15,7 +15,7 @@ pip install Fxnium
 ```
 ## Usage
 ```python
-from Fxpnium import *
+from Fxnium import *
 
 bot = FxpBot()
 
