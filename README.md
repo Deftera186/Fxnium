@@ -10,6 +10,10 @@ What is selenium actually? Selenium automates browsers. That's it.
 ## Installation
 To use this package, you need to download FIREFOX webdriver, [geckodriver.exe](https://github.com/mozilla/geckodriver/releases).
 In addition, you need to download [FIREFOX](https://www.mozilla.org/en-US/firefox/new/).
+
+**Make sure geckodriver.exe is in PATH!**
+
+Finally, you can download the library through PIP as follows:
 ```
 pip install Fxnium
 ```
