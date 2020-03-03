@@ -21,7 +21,7 @@ pip install Fxnium
 ```python
 from Fxnium import *
 
-bot = FxpBot()
+bot = Client()
 
 bot.login('username', 'password')
 bot.create_thread('31', 'This is the best package for interacting with FXP!', 'Check this out!', 'פרסום|')
