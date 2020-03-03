@@ -8,7 +8,7 @@ with open('requirements.txt') as f:
 
 setup(
 	name='Fxnium',
-	version='1.0.11',
+	version='1.1.11',
 	author='Liav Mordouch',
 	author_email='liavmordouch@gmail.com',
 	description='Fxnium is a python module for easy interactaction with the site fxp.co.il',
@@ -16,9 +16,9 @@ setup(
 	long_description_content_type='text/markdown',
 	url='https://github.com/Deftera186/Fxnium',
 	packages=find_packages(),
-	classifiers=[
+            classifiers=[
                 "Programming Language :: Python :: 3",
                 "License :: OSI Approved :: MIT License",
-	],
+            ],
 	install_requires=requirements
 )
