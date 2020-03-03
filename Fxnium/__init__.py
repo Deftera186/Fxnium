@@ -1,1 +1,1 @@
-from Fxnium import *
+from .Fxnium import *
