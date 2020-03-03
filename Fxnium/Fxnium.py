@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support.ui import Select
 
 
-class FxpBot:
+class Client:
     def __init__(self, debug=False):
         options = Options()
         if not debug:
@@ -72,8 +72,8 @@ class FxpBot:
         for comment in comments:
             comment.click()
 
-    def like_comment(self, page_link, comment_id):
-        self.driver.get(page_link)
+    def like_comment(self, comment_id):
+        self.driver.get("https://www.fxp.co.il/showthread.php?p=" + str(comment_id))
         x_path = "//*[starts-with(@id, '" + str(comment_id) + "_')]"
         self.driver.find_element_by_xpath(x_path).click()
 
